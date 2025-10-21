@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindHaven - Mental Health Creator</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MindHaven</h1>
+            <h2>"Healthcare is incomplete without mental care"</h2>
+        </header>
+
+        <div class="buttons">
+            <button class="btn" id="signup">
+                <i class="fa-solid fa-user-plus"></i> Sign Up
+            </button>
+            <button class="btn" id="login">
+                <i class="fa-solid fa-right-to-bracket"></i> Login
+            </button>
+        </div>
+
+        <section class="objective">
+            <h3>🎯 Objective</h3>
+            <p id="objectiveText">
+                At MindHaven, we genuinely care about you and your well-being.
+                This is a safe, comforting space where your thoughts are valued,
+                your feelings are understood, and every emotion matters.
+                We are here to support you with patience, love, and gentle guidance every step of the way.
+            </p>
+        </section>
+
+        <footer>
+            <p class="footer-text">© 2025 MindEase | Built with ❤️ to promote better mental health</p>
+        </footer>
+    </div>
+
+    <script>
+        // Redirect to other pages
+        document.getElementById("signup").addEventListener("click", () => {
+            window.location.href = "signup.html";
+        });
+        document.getElementById("login").addEventListener("click", () => {
+            window.location.href = "login.html";
+        });
+    </script>
+</body>
+</html>
